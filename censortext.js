@@ -9,7 +9,7 @@ function censor(inStr){
 	}
 	return inStr;
 }
-function addSensorWord (word) {
+function addCensorWord (word) {
 	customCensoredWords.push(word);
 }
 function getCensoredWord (word) {
